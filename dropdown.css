@@ -1,0 +1,28 @@
+.parent {
+  position: relative;
+}
+
+.dropdown-items {
+  display: none;
+}
+
+
+.parent:hover .dropdown-items {
+  display: block;
+  position: absolute;
+}
+
+
+
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  color: white;
+}
+
+.ay {
+  display: flex;
+  gap: 45px;
+}

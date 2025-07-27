@@ -1,0 +1,30 @@
+.casing{
+  width: 320px;
+  height: 550px;
+  border: 6px solid blueviolet;
+  border-radius: 25px;
+}
+.screen{
+  width: 310px;
+  height: 540px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-image: url(./teacher1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.right-icon{
+  display: flex;
+  gap: 2px;
+}
+.left-icon{
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.top-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

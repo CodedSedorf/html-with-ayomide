@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.stat{
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  position: static;
+  right: 0;
+}
+.fix{
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  margin-top: 5px;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+.sti{
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  margin-top: 5px;
+  position: sticky;
+  top: 50px;
+}
+.rel{
+  height: 250px;
+  width: 250px;
+  background-color: tomato;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  margin-top: 5px;
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+.abs{
+  height: 150px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 75px;
+  margin-top: 5px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.logo{
+  width: 200px;
+  height: auto;
+}
+.nav-items{
+  display: flex;
+  gap: 25px;
+}
+.btn{
+  background-color: blue;
+  color: white;
+  /* padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px; */
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+}

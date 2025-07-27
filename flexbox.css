@@ -1,0 +1,35 @@
+.num1{
+  height: 100px;
+  width: 100px;
+  background-color: cornflowerblue;
+  /* margin: 5px; */
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.logo{
+  width: 150px;
+  height: auto;
+}
+.btn{
+  padding: 10px 25px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
+p{
+  color: blue;
+  
+}

@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+.myself{
+  color: rgb(155, 245, 150);
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.explore{
+  background-color: tomato;
+  height: 500px;
+  width: 500px;
+  background-image: url(https://www.immaculatevirtualschool.com/_next/image?url=%2Fimages%2FAyo.png&w=256&q=75);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+body{
+  background: linear-gradient(rgba(3, 1, 2, 0.9), rgba(0, 0, 0, 0.5)), url(https://helios-i.mashable.com/imagery/articles/07JcQvpybGaWqJelrmlnS2Y/hero-image.fill.size_1248x702.v1736475449.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

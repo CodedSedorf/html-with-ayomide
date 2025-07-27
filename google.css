@@ -1,0 +1,117 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.google{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.nav{
+  display: flex;
+  justify-content: end;
+  gap: 25px;
+  padding-top: 15px;
+  align-items: center;
+}
+
+#flask, #dots,   #user{
+  font-size: 25px;
+  cursor: pointer;
+}
+.gmail, .image{
+  cursor: pointer;
+}
+
+.nav:hover .image{
+  text-decoration: underline;
+}
+.nav:hover .gmail{
+  text-decoration: underline;
+}
+
+.google-logo{
+  width: 250px;
+  height: auto;
+  margin-left: 550px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  
+
+}
+.search{
+  width: 600px;
+  height: 50px;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+  margin-left: 390px;
+}
+
+.input{
+  width: 500px;
+  height: 40px;
+  outline: none;
+  border: none;
+}
+
+.icon-div{
+  width: 50px;
+  height: auto;
+}
+.shortcut{
+  width: 100px;
+  height: 100px;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+  padding-top: 8px;
+  margin-left: 600px;
+  margin-top: 15px;
+}
+.hove:hover .shortcut{
+  background-color: skyblue;
+  cursor: pointer;
+}
+
+.google-app{
+  width: 100px;
+  height: 100px;
+  /* background-color: rebeccapurple; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.parent{
+  position: relative;
+}
+
+.dropdown-items{
+  display: none;
+  
+}
+.parent:hover .dropdown-items{
+  display: block;
+  position: absolute;
+  width: 350px;
+  height: 700px;
+  border: 4px solid blueviolet;
+  right: -40px;
+  top: 70px;
+}
+.all-apps{
+  width: 330px;
+  height: 650px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow-y: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}

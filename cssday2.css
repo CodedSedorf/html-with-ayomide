@@ -1,0 +1,26 @@
+.bobo{
+  color: chartreuse;
+}
+
+.bb{
+  color: rgb(228,174,48);
+}
+
+body{
+  background-color: rebeccapurple;
+}
+
+.container{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  border: 2px solid black;
+  border-radius: 50%;
+
+}
+
+.con{
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}

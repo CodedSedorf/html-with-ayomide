@@ -1,0 +1,21 @@
+.grid{
+  height: 150px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  overflow-x: scroll;
+  scrollbar-width: none;
+
+}
+
+.card{
+  height: 100px;
+  width: 50;
+  background-image: url(https://images.ctfassets.net/4cd45et68cgf/6xlqqImDdAfzWKIlaScQxm/7def051f35d6668bd6e6227e354ecc01/EN-US_SG-S2_Primary_Main_RoundandRound-Safe_Vertical_27x40_RGB_PRE.jpg?w=1200);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 6px;
+}
