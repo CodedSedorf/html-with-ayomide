@@ -1,0 +1,15 @@
+.ayomide{
+  width: 200px;
+  height: 200px;
+  background-color: cyan;
+  transition: width, background-color,height, 3s;
+  transition-timing-function: ease;
+  transition-delay: 2s;
+}
+
+.ayomide:hover{
+  width: 500px;
+  height: 500px;
+  background-color: rebeccapurple;
+  transform: rotate(360deg);
+}
